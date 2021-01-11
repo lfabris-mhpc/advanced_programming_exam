@@ -2,6 +2,7 @@
 
 # Compilation
 To compile the code, run make in the repository's directory. The default compile flags are -Wall -Wextra; other flags can be appended with make CXXFLAGS="..." LDFLAGS="..."
+
 The first program that will be built is test.x, which tests the various constructors, insertion methods, and the balance mechanism of bst.
 All operations are performed on a bst using the std::less comparator, another using std::greater, and a std::map; the content of the containers are printed after each action.
 
